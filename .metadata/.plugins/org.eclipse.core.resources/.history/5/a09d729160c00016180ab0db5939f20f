@@ -28,14 +28,14 @@ public class Inheritance {
 			}
 
 			public ChildClass(int x, int y) {
-				super();
+				super(x*2, y*3);
 				this.x = x;
 				this.y = y;
 			}
 			
-//			public void printxy(){
-//				System.out.println("parent x = "+ x +" y = "+y);
-//			}
+			public void printxy(){
+				System.out.println("parent x = "+ x +" y = "+y);
+			}
 			
 			
 		}		

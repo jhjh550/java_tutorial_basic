@@ -1,0 +1,21 @@
+
+public class Inheritance {
+	
+	public static void main(String[] args) {		
+		class ParentClass{
+			public ParentClass(){
+				System.out.println("parent class constructor");
+			}
+		}
+		
+		class ChildClass extends ParentClass{
+			public ChildClass(){
+				System.out.println("child class constructor");
+			}		
+		}		
+		
+		ChildClass child = new ChildClass();
+
+	}
+
+}

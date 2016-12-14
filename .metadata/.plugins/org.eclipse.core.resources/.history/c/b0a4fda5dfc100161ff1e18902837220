@@ -1,0 +1,10 @@
+
+public class Cube extends ThreeDimenShape{
+
+	
+	public float getVolume(int a) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,4 @@
+
+public class Circle extends TwoDimenShape{
+	float pi = 3.14f;
+}

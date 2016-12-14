@@ -12,8 +12,10 @@ public class PolyTest {
 
 //		makeSoundTest(cat);
 		makeSoundTest(dog);
-		Animal a = catInstance;
+		Animal a = new Cat();
 		a.makeSound();
+		
+		Animal a1 = new Animal();
 	}
 
 }

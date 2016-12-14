@@ -1,0 +1,4 @@
+
+public abstract class TwoDimenShape extends Shape{
+	public abstract float getArea();
+}

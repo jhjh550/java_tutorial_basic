@@ -1,0 +1,14 @@
+
+public class ObjectTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		class MyClass{
+			
+		}
+		
+		MyClass a = new MyClass();
+		System.out.println(a);
+	}
+
+}

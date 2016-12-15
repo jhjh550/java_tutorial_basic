@@ -1,0 +1,16 @@
+import java.io.File;
+
+public class ExceptionTest {
+	public static void main(String[] args) {
+		try{
+			int a = 100/0;
+			System.out.println("a:"+a);
+		}catch(Exception e){
+//			e.printStackTrace();
+		}
+		
+		Thread.sleep(1000);
+		
+		System.out.println("end");
+	}
+}

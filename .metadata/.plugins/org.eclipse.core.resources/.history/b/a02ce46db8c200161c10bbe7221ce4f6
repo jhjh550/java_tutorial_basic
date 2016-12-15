@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class MapTest {
+
+	public static void main(String[] args) {
+		HashMap<String, Integer> map 
+			= new HashMap<String, Integer>();
+		map.put("Math", 100);
+		map.put("English", 80);
+		map.put("Math", 90);
+		
+		int mathValue = map.get("Math");
+		System.out.println("Math:"+mathValue);
+		
+		HashSet<String> set = new HashSet<String>();
+		set.add("AAA");
+		set.add("BBB");
+		set.add("CCC");
+		System.out.println(set);
+		
+		System.out.println(""+set.contains("AAA"));
+	}
+
+}
+
+
+
+
+

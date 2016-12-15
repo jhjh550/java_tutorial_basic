@@ -1,0 +1,16 @@
+import java.util.HashMap;
+
+public class MapTest {
+
+	public static void main(String[] args) {
+		HashMap<String, Integer> map 
+			= new HashMap<String, Integer>();
+		map.put("Math", 100);
+		map.put("English", 80);
+		
+		int mathValue = map.get("Math");
+		System.out.println("Math:"+mathValue);
+
+	}
+
+}
